@@ -1,0 +1,73 @@
+{
+    "name": "bezhansalleh/filament-google-analytics",
+    "description": "Google Analytics integration with Filamentphp (FilamentAdmin)",
+    "keywords": [
+        "bezhanSalleh",
+        "laravel",
+        "filament-analytics",
+        "filament-google-analytics",
+        "google-analytics",
+        "analytics",
+        "filamentadmin",
+        "filament-plugin",
+        "php",
+        "livewire"
+    ],
+    "homepage": "https://github.com/bezhansalleh/filament-google-analytics",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bezhan Salleh",
+            "email": "bezhan_salleh@yahoo.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "filament/widgets": "^3.0",
+        "spatie/laravel-analytics": "^5.0",
+        "spatie/laravel-package-tools": "^1.9"
+    },
+    "require-dev": {
+        "laravel/pint": "^1.2",
+        "nunomaduro/collision": "^7.0",
+        "orchestra/testbench": "^8.0",
+        "pestphp/pest": "^2.10",
+        "phpunit/phpunit": "^10.1",
+        "spatie/ray": "^1.40"
+    },
+    "autoload": {
+        "psr-4": {
+            "BezhanSalleh\\FilamentGoogleAnalytics\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "BezhanSalleh\\FilamentGoogleAnalytics\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/pest",
+        "test-coverage": "vendor/bin/pest --coverage",
+        "format": "vendor/bin/pint"
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true,
+            "phpstan/extension-installer": true
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "BezhanSalleh\\FilamentGoogleAnalytics\\FilamentGoogleAnalyticsServiceProvider"
+            ],
+            "aliases": {
+                "FilamentGoogleAnalytics": "BezhanSalleh\\FilamentGoogleAnalytics\\Facades\\FilamentGoogleAnalytics"
+            }
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import '<path-to-node-modules>/cropperjs/dist/cropper.css';
+@import '<path-to-vendor>/awcodes/filament-curator/resources/css/plugin.css';
+
+/* resources/css/app.css */
+.task-item {
+    transition: all 0.3s ease;
+}
+
+.task-item.is-dragging {
+    opacity: 0.5;
+}
+
+.task-item.can-drop {
+    border-color: #4CAF50;
+}
+
+

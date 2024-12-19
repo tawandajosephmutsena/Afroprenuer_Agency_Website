@@ -1,0 +1,29 @@
+{
+  "resources/css/accessibility.css": {
+    "file": "assets/accessibility-Cos0G0rB.css",
+    "src": "resources/css/accessibility.css",
+    "isEntry": true
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-D3anTNuV.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/css/filament/admin/theme.css": {
+    "file": "assets/theme-rsACwCFd.css",
+    "src": "resources/css/filament/admin/theme.css",
+    "isEntry": true
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-z-Rg4TxU.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true
+  },
+  "resources/js/break-timer.js": {
+    "file": "assets/break-timer-oS7MdPYm.js",
+    "name": "break-timer",
+    "src": "resources/js/break-timer.js",
+    "isEntry": true
+  }
+}
