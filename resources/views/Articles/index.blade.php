@@ -11,8 +11,8 @@
             <div class="relative isolate overflow-hidden px-80 mx-auto">
               <div class="mx-auto flex justify-center items-center">
                 <div class="text-center">
-                  <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl">Stay Ahead with Expert Insights</h2>
-                  <p class="mt-4 text-lg leading-8 text-gray-300">Our articles page is your go-to resource for insights into web development, branding, marketing strategies, and automation trends. Designed to empower business leaders, our content helps you make informed decisions and stay at the forefront of the digital landscape.</p>
+                  <h2 class="text-3xl font-bold tracking-relaxed text-gray-800 dark:text-yellow-50 sm:text-4xl">Stay Ahead with Expert Insights</h2>
+                  <p class="mt-4 text-lg leading-8 text-gray-800 dark:text-gray-300">Our articles page is your go-to resource for insights into web development, branding, marketing strategies, and automation trends. Designed to empower business leaders, our content helps you make informed decisions and stay at the forefront of the digital landscape.</p>
                 </div>
               </div>
             </div>

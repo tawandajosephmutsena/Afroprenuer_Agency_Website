@@ -15,7 +15,7 @@
                 <div class="text-center">
                     <h1 class="text-4xl font-bold tracking-tight text-gray-900 dark:text-gray-100 sm:text-6xl">{{ $service->name }}</h1>
                     <p class="mt-6 text-lg leading-8 text-gray-300">
-                        <span class="text-yellow-500 dark:text-yellow-600 font-semibold">{{ $service->service_type }}</span>
+                        <span class="text-violet-800 dark:text-yellow-600 font-semibold">{{ $service->service_type }}</span>
                     </p>
                 </div>
             </div>

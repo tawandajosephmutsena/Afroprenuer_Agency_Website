@@ -12,10 +12,10 @@
     <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
         <!-- header section -->
         <div class="mb-10 md:mb-16">
-            <h2 class="mb-4 text-center text-2xl font-bold text-gray-800 dark:text-gray-400 md:mb-6 lg:text-3xl">Our Work Speaks for Itself
+            <h2 class="mb-4 text-center text-2xl font-bold text-gray-800 dark:text-gray-200 md:mb-6 lg:text-3xl">Our Work Speaks for Itself
 
 </h2>
-            <p class="mx-auto max-w-screen-lg text-center text-gray-500 dark:text-gray-400 md:text-lg">
+            <p class="mx-auto max-w-screen-lg text-center text-gray-700 dark:text-gray-200 md:text-lg">
 Discover how we transform visionary ideas into extraordinary realities. Our portfolio showcases diverse projects across industries, reflecting innovation, quality, and our relentless commitment to excellence.
 
 From captivating websites to dynamic mobile apps and impactful advertising campaigns, our work is a testament to our ability to deliver premium solutions tailored to unique client needs.

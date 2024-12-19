@@ -8,7 +8,7 @@
     "devDependencies": {
         "@tailwindcss/forms": "^0.5.9",
         "@tailwindcss/typography": "^0.5.15",
-        "@vitejs/plugin-react": "^4.3.3",
+        "@vitejs/plugin-react": "^4.3.4",
         "autoprefixer": "^10.4.20",
         "axios": "^1.7.4",
         "concurrently": "^9.0.1",
@@ -31,8 +31,14 @@
         "@fullcalendar/timegrid": "^6.1.15",
         "@headlessui/react": "^2.2.0",
         "@heroicons/react": "^2.1.5",
+        "@radix-ui/react-progress": "^1.1.1",
+        "@radix-ui/react-slot": "^1.1.1",
         "alpinejs": "^3.14.3",
+        "class-variance-authority": "^0.7.1",
+        "clsx": "^2.1.1",
         "fullcalendar": "^6.1.15",
-        "lucide-react": "^0.453.0"
+        "lucide-react": "^0.453.0",
+        "shadcn-ui": "^0.9.4",
+        "tailwind-merge": "^2.5.5"
     }
 }

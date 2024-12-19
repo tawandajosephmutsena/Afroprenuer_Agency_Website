@@ -7,11 +7,11 @@ export default defineConfig({
     laravel({
       input: [
         "resources/css/app.css",
-        "resources/css/accessibility.css",
-        "resources/js/app.js",
+        
+        "resources/js/app.jsx",
         "resources/css/filament/admin/theme.css",
-        "resources/js/break-timer.js",
-        'resources/css/app.css', 'resources/js/app.js',
+      
+        'resources/css/app.css', 'resources/js/app.jsx',
       ],
       refresh: true,
     }),

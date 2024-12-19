@@ -6,7 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Mhondoro-Inc</title>
 
-  <script src="https://cdn.tailwindcss.com"></script>
+ @vite('resources/css/app.css')
+   
+
+   
     <style>
         @keyframes gradientMove {
             0% {
@@ -21,7 +24,11 @@
         }
         .animate-gradient-move>div {
             animation: gradientMove 5s infinite ease-in-out;
-        }
+        }</style>
+
+          <!-- Fancybox CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css">
+
  
 </head>
 
@@ -155,20 +162,19 @@
 
 </script>
         <!-- Remove Lightbox2 JS -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script> 
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
    
 
+  
+  
+<!-- Fancybox JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js" defer></script>
+
     <script>
-
-
-    <!-- Add Fancybox initialization -->
-
-           Fancybox.bind("[data-fancybox]", {
-            // Your custom options
-            Toolbar: {
-                display: {
-                    left: ["infobar"],
-                    middle: [
+        document.addEventListener("DOMContentLoaded", function () {
+            Fancybox.bind("[data-fancybox]", {
+                Toolbar: {
+                    display: [
                         "zoomIn",
                         "zoomOut",
                         "toggle1to1",
@@ -176,55 +182,27 @@
                         "rotateCW",
                         "flipX",
                         "flipY",
+                        "slideshow",
+                        "thumbs",
+                        "close",
                     ],
-                    right: ["slideshow", "thumbs", "close"],
                 },
-            },
-            Thumbs: {
-                autoStart: false,
-            },
-            Carousel: {
-                Navigation: {
-                    prevTpl: '<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" /></svg>',
-                    nextTpl: '<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" /></svg>',
+                Thumbs: {
+                    autoStart: true,
                 },
-            },
-            Image: {
-                zoom: true,
-                fit: "contain",
-                click: "close",
-                wheel: "slide",
-            },
+                Carousel: {
+                    Navigation: true,
+                },
+                Image: {
+                    zoom: true,
+                },
+            });
         });
- 
     </script>
 
     <style>
         .fancybox__container {
             --fancybox-bg: rgba(24, 24, 27, 0.98);
-        }
-
-        .fancybox__slide {
-            padding: 0;
-        }
-
-        .fancybox__content {
-            margin: 0;
-            border-radius: 0;
-            background: transparent;
-        }
-
-        .fancybox__image {
-            max-width: 80vw;
-            max-height: 80vh;
-        }
-
-        .fancybox__toolbar {
-            background: transparent;
-        }
-
-        .fancybox__nav {
-            background: transparent;
         }
 
         .fancybox__nav .carousel__button {
@@ -245,5 +223,6 @@
         }
     </style>
 
+    
 </body>
 </html>

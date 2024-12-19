@@ -58,7 +58,7 @@
     <div class="bg-violet-100 py-24 sm:py-32 dark:bg-gray-900">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
             <div class="mx-auto max-w-2xl lg:text-center">
-                <h2 class="text-base font-semibold leading-7 text-indigo-600 dark:text-yellow-500">Welcome to Mhondoro Inc.</h2>
+                <h2 class="text-base font-semibold leading-7 text-violet-600 dark:text-yellow-500">Welcome to Mhondoro Inc.</h2>
                 <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl dark:text-gray-100">Turning Your Vision into Reality</p>
                 <p class="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-300">At Mhondoro Inc., we go beyond delivering services – we create partnerships that prioritize your success. Our expertise in premium web and mobile solutions ensures your business stands out with innovative, tailored strategies designed for impact.</p>
             </div>
@@ -300,7 +300,7 @@
 <!-- End Features -->
 
 
-            <div class="mx-auto max-w-3xl lg:text-center bg-white dark:bg-gray-800 px-16 pb-16 pt-16 drop-shadow-xl ring ring-gray-700 rounded-b-lg ">
+            <div class="mx-auto max-w-3xl lg:text-center bg-gray-100 dark:bg-gray-800 px-16 pb-16 pt-16 drop-shadow-xl ring ring-gray-200 dark:ring-gray-700 rounded-b-lg ">
                 <p class="text-2xl leading-8 text-gray-600 dark:text-gray-300">Not just products </p>
                
                 <p class="text-xl leading-8 text-gray-600 dark:text-gray-300"> we build trust, relationships, and enduring success.</p><p class="text-xl leading-8 text-gray-600 dark:text-gray-300"> Let us empower your journey with professionalism and innovation.</p>

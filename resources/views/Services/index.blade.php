@@ -47,7 +47,7 @@
                                     {{ $service->name }}
                                 </h2>
                                 <h4>
-                                    <span class="text-yellow-500 Dark:text-yellow-500 font-extrabold">{{ $service->service_type }}</span>
+                                    <span class="text-violet-700 dark:text-gray-200 font-bold">{{ $service->service_type }}</span>
                                 </h4>
                                 <p class="mt-4 text-gray-600 dark:text-gray-100">
                                     {{ Str::limit($service->description, 150) }}

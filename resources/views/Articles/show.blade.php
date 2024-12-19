@@ -9,12 +9,12 @@
             <div class="flex flex-col items-center text-center">
                 <div class="space-y-4">
                     @if($article->category)
-                    <div class="inline-block px-4 py-1 bg-yellow-600/10 text-yellow-400 text-sm">
+                    <div class="inline-block px-4 py-1 bg-yellow-500 dark:bg-yellow-600/10 text-yellow-800 dark:text-yellow-400 text-sm">
                         {{ $article->category->name }}
                     </div>
                     @endif
-                    <h1 class="text-4xl font-bold tracking-tight text-grey-900 dark:text-gray-100 sm:text-5xl">{{ $article->title }}</h1>
-                    <div class="flex items-center justify-center space-x-4 text-gray-700 dark:text-gray-300">
+                    <h1 class="text-4xl font-bold tracking-relaxed text-gray-900 dark:text-gray-100 sm:text-5xl">{{ $article->title }}</h1>
+                    <div class="flex items-center justify-center space-x-4 text-gray-800 dark:text-gray-300">
                         <span>{{ $article->reading_time }} read</span>
                         <span>•</span>
                         <span>{{ $article->published_at->format('F j, Y') }}</span>
@@ -57,7 +57,7 @@
     <main class="container mx-auto px-6 py-12">
         <div class="max-w-4xl mx-auto  bg-gray-100 dark:bg-gray-800 p-16">
             @if($article->excerpt)
-            <div class="text-xl text-gray-600 dark:text-gray-100 mb-12 leading-relaxed font-light">
+            <div class="text-xl text-gray-600 dark:text-yellow-50 mb-12 leading-relaxed">
                 {{ $article->excerpt }}
             </div>
             @endif
@@ -65,9 +65,10 @@
 
 
             <!-- Main Content -->
-            <div class="prose prose-lg max-w-none mb-12 text-gray-600 dark:text-gray-100">
-                {!! $article->content !!}
-            </div>
+<div class="prose prose-lg dark:prose-dark text-xl max-w-none mb-12 text-gray-600 dark:text-yellow-50 leading-relaxed">
+    {!! $article->content !!}
+</div>
+
 
             <!-- Tags -->
             @if($article->tags->count() > 0)

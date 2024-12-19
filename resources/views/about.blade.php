@@ -53,14 +53,14 @@
             </div>
             <div class="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
                 <div class="lg:pr-4">
-                    <h1 class="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-100 sm:text-5xl">A better workflow</h1>
+                    <h1 class="mt-2 mb-4 text-pretty text-4xl font-semibold tracking-tight text-gray-700 dark:text-gray-100 sm:text-5xl">A better workflow</h1>
 
                     <div class="max-w-xl text-base/7 text-gray-700 dark:text-gray-100 lg:max-w-lg">
 
                         <p>Mhondoro Inc is built on a mission to empower businesses with cutting-edge technology solutions. Our belief in collaboration fuels our success – we’re not just a service provider but a trusted partner committed to understanding your unique needs and delivering beyond expectations.</p>
 
                         <p class="mt-8">Our team combines expertise, creativity, and dedication to ensure that every project drives growth, enhances visibility, and fosters customer engagement. With a client-first approach, we prioritize lasting relationships that make you feel supported every step of the way</p>
-                        <h2 class="mt-16 text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-100">Partner with us, and let’s achieve extraordinary together.
+                        <h2 class="mt-8 text-2xl font-bold tracking-tight text-gray-700 dark:text-gray-100">Partner with us, and let’s achieve extraordinary together.
 
                         </h2>
                     </div>
