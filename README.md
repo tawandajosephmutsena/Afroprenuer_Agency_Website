@@ -81,6 +81,15 @@ Afroprenuer Online is more than an app; it’s a movement to empower African ent
    composer run dev
    ```
 
+5. **you can now visit website, to login:**
+   ```bash
+   Email address: admin@test.com
+   password: test1234
+   ```
+
+   Designed and created by Tawanda Joseph Mutsena for Mhondoro Inc | mhondoro-inc.co.zw
+   
+
 ---
 
 ## 🤝 Contributing
