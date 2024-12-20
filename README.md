@@ -55,7 +55,7 @@ Afroprenuer Online is more than an app; it’s a movement to empower African ent
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-repo/filament-app.git
+   git clone https://github.com/tawandajosephmutsena/Afroprenuer_Agency_Website
    cd filament-app
    ```
 
