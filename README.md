@@ -4,6 +4,13 @@ Welcome to **Afroprenuer Agency Online**, a versatile and powerful Laravel-based
 
 Afroprenuer Online is more than an app; it’s a movement to empower African entrepreneurs and artists to showcase their talents on a global stage. By providing digital tools tailored to the resources available across the continent, we aim to bridge the digital divide and foster growth. We invite you to join our mission, contribute, and share feedback to make this project even better!
 
+
+![Tasks-Mhondoro-Inc](https://github.com/user-attachments/assets/a84ef11f-a00c-465e-99e0-730d30c498ca)
+
+
+![Web-Apllication-Mhondoro-inc](https://github.com/user-attachments/assets/6ae1dee8-d970-4029-b4e6-953ddbbf83bd)
+
+
 ---
 
 ## 🌟 Key Features
