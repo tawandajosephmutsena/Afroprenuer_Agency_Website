@@ -43,10 +43,10 @@
                     <div class="grid grid-cols-2 gap-6">
                         <div class="text-center">
                             <div class="text-gray-500 dark:text-gray-200">Duration</div>
-                            <div class="text-2xl font-bold text-gray-900 dark:text-gray-100">{{ $service->duration }} Hours</div>
+                            <div class="text-2xl font-bold text-gray-900 dark:text-gray-100">{{ $service->duration }} Days</div>
                         </div>
                         <div class="text-center">
-                            <div class="text-gray-800 dark:text-gray-100">Price</div>
+                            <div class="text-gray-800 dark:text-gray-100">Starting Price</div>
                             <div class="text-2xl font-bold text-gray-900 dark:text-gray-100">${{ number_format($service->price, 2) }}</div>
                         </div>
                     </div>
