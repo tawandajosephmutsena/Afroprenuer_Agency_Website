@@ -142,7 +142,7 @@ Have suggestions, feedback, or encountered an issue? Please [open an issue](http
 ## 🌍 Stay Connected
 
 Stay updated with the latest features and discussions:
-- [GitHub](https://github.com/tawandajosephmutsena/Afroprenuer_Agency_Website
-- [Community Forum](#)
+- [GitHub](https://github.com/tawandajosephmutsena/Afroprenuer_Agency_Website)
+- [Join Our Discord](https://discord.gg/cf73RAjd) 
 
 Let’s build something amazing together! 🚀
