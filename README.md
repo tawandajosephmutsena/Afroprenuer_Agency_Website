@@ -68,7 +68,7 @@ Afroprenuer Online is more than an app; it’s a movement to empower African ent
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/tawandajosephmutsena/Afroprenuer_Agency_Website
-   cd filament-app
+   cd Afroprenuer_Agency_Website
    ```
 
 2. **Install Dependencies:**
@@ -79,27 +79,29 @@ Afroprenuer Online is more than an app; it’s a movement to empower African ent
 
 3. **Set Up Your Environment:**
    ```bash
-   cp .env.example .env
+  
    php artisan key:generate
    ```
 
-4. **Run Database Migrations:**
+5. **Run Database Migrations:**
    ```bash
    php artisan migrate
    ```
 
-5. **Start the Development Server:**
+6. **Start the Development Server:**
    ```bash
    composer run dev
    ```
 
-5. **you can now visit website, to login:**
+5. **you can now visit website, **
+6.
+7.  **to login:**
    ```bash
    Email address: admin@test.com
    password: test1234
    ```
 
-   Designed and created by Tawanda Joseph Mutsena for Mhondoro Inc | mhondoro-inc.co.zw
+   **Designed and created by 🚀 Tawanda Joseph Mutsena 🚀 for Mhondoro Inc | mhondoro-inc.co.zw**
    
 
 ---
@@ -135,14 +137,14 @@ This project is open-source software licensed under the **MIT License**. See the
 
 ## 💌 Feedback and Support
 
-Have suggestions, feedback, or encountered an issue? Please [open an issue](https://github.com/your-repo/filament-app/issues). We’d love to hear from you!
+Have suggestions, feedback, or encountered an issue? Please [open an issue](https://github.com/tawandajosephmutsena/Afroprenuer_Agency_Website/issues). We’d love to hear from you!
 
 ---
 
 ## 🌍 Stay Connected
 
 Stay updated with the latest features and discussions:
-- [GitHub](https://github.com/your-repo/filament-app)
+- [GitHub](https://github.com/tawandajosephmutsena/Afroprenuer_Agency_Website
 - [Community Forum](#)
 
 Let’s build something amazing together! 🚀
